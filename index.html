@@ -9,44 +9,29 @@
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/app.css" />
   </head>
-  <body>
+    <body>
+      <div id="container">
 
-    <header>
-      
-    </header>
+        <header>
+          
+        </header>
 
-    <div class="row">
-      <div class="large-12 columns">
-        
-        <div id="board">
-        <h3 contenteditable="true">title</h3>
-        <ul onblur=saveBoard>
-          <li contenteditable="true"></li>
-        </ul>
-
-
-
-<!--         below is from original notemaster
- --><!--     <div id="textbox">
-      <h2>Notepad Tools</h2>
-      <input type="text" name="textinput" placeholder="note here" id="TextInput">
-      <input type="submit" value="Add" onclick="addnote();saveForm()" nosubmit for=textinput>
-    </div >
-  </form>
-    <div id="notepad" >
-      <h2 contenteditable="false">Notepad</h2>
-      <ul onblur="saveForm()" id="notepadOutput" contenteditable="true">
-      </ul>
-    </div> -->
-
+        <div class="row">
+          <div class="large-12 columns">
+            
+            <div id="board">
+            <h3 contenteditable="true">title</h3>
+              <ul onblur=saveForm>
+                <li contenteditable="true"></li>
+              </ul>
+            </div>
+          </div>
         </div>
 
+        <script src="js/vendor/jquery.min.js"></script>
+        <script src="js/vendor/what-input.min.js"></script>
+        <script src="js/foundation.min.js"></script>
+        <script src="js/app.js"></script>
       </div>
-    </div>
-
-    <script src="js/vendor/jquery.min.js"></script>
-    <script src="js/vendor/what-input.min.js"></script>
-    <script src="js/foundation.min.js"></script>
-    <script src="js/app.js"></script>
-  </body>
+      </body>
 </html>

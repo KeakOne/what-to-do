@@ -1,5 +1,37 @@
 
+#container {
+background: #2c3e50; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #2c3e50 , #3498db); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #2c3e50 , #3498db); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */       
+}
+
+header {
+	padding-bottom: 40px;
+}
+
 
 #board {
-	background-color: red;
+	margin-bottom: 40px;
+	background-color: snow;
+    -moz-box-shadow: 6px 15px 39px #000000;
+    -webkit-box-shadow: 6px 15px 39px #000000;
+    box-shadow: 6px 15px 39px #000000;
+    border:none 2px #000000;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright:5px;
+    -moz-border-radius-bottomleft:5px;
+    -moz-border-radius-bottomright:5px;
+    -webkit-border-top-left-radius:5px;
+    -webkit-border-top-right-radius:5px;
+    -webkit-border-bottom-left-radius:5px;
+    -webkit-border-bottom-right-radius:5px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
 }
+
+#board ul {
+	list-style-type: square; 
+}
+
