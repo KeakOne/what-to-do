@@ -5,6 +5,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>What to do</title>
+    <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css"/>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/app.css" />
@@ -13,12 +14,23 @@
       <div id="container">
 
         <header>
-          
+        <div class="row">
+          <div class="small-4 small-centered columns">
+              <a id="newBoard" class="success large button" href="#">+</a>  
+          </div> 
+        </div>       
         </header>
 
         <div class="row">
-          <div class="large-12 columns">
-            
+          <div class="small-1 columns">
+            <div id="side-buttons">
+              <a  id="deleteButton" class="alert tiny button" href="">x</a>
+              <a  id="colorButton" class="warning tiny button" href="">x</a>
+            </div>
+          </div>
+
+          <div class="small-10 columns">
+        
             <div id="board">
             <h3 contenteditable="true">title</h3>
               <ul onblur=saveForm>
